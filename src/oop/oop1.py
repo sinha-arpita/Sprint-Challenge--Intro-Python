@@ -1,5 +1,27 @@
 # Write classes for the following class hierarchy:
-#
+
+class Vehicle(object):
+    # Vehicle is the base class for FlightVehicle and GroundVehicle
+    pass
+
+class FlightVehicle(Vehicle):
+    #FlightVehicle is the base class for starship and Airplane
+    pass
+class Starship(FlightVehicle):
+    pass
+class Airplane(FlightVehicle):
+    pass
+class GroundVehicle(Vehicle):
+    # GroundVehicle is the base class for Car and Motorcycle
+    pass
+class Car(GroundVehicle):
+    pass
+class Motorcycle(GroundVehicle):
+    pass
+
+
+
+#   class
 #  [Vehicle]->[FlightVehicle]->[Starship]
 #      |                |
 #      v                v
